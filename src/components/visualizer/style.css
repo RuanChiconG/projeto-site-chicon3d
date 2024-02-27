@@ -1,0 +1,41 @@
+
+.visualizer {
+    width: 100%;
+    display: flex;
+}
+
+.frame {
+    width: 70%;
+    height: 666px;
+    border: none;
+}
+
+.list-buttons {
+    list-style-type: none;
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 200px 200px;
+    text-align: center;
+}
+
+.buttons {
+    color: rgb(250, 116, 6);
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.images-buttons {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.name-buttons {
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+}
